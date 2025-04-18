@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="280dp"
+        android:minHeight="48dp"
+        android:hint="@string/username"
+        android:textColorHint="#666666"
+        android:inputType="textPersonName"
+        android:autofillHints="username"
+        android:importantForAutofill="yes"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="280dp"
+        android:minHeight="48dp"
+        android:hint="@string/password"
+        android:textColorHint="#666666"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:importantForAutofill="yes"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:text="@string/login"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_to_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:minHeight="48dp"
+        android:text="@string/go_to_register" />
+</LinearLayout>
